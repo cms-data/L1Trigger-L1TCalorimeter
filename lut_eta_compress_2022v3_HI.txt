@@ -1,0 +1,70 @@
+# MP ieta compression LUT
+# Converts abs(MP ieta) (6 bits) into 4 bit index
+# This is NOT calo ieta
+# anything after # is ignored with the exception of the header
+# the header is first valid line starting with #<header> versionStr nrBitsAddress nrBitsData </header>
+#<header> v1 6 4 </header>
+0 0  # dummy ieta_bin
+1 0  # ieta 1
+2 0  # ieta 2
+3 0  # ieta 3
+4 0  # ieta 4
+5 0  # ieta 5
+6 1  # ieta 6
+7 1  # ieta 7
+8 1  # ieta 8
+9 1  # ieta 9
+10 2  # ieta 10
+11 2  # ieta 11
+12 2  # ieta 12
+13 2  # ieta 13
+14 3  # ieta 14
+15 3  # ieta 15
+16 4  # ieta 16
+17 4  # ieta 17
+18 5  # ieta 18
+19 5  # ieta 19
+20 6  # ieta 20
+21 6  # ieta 21
+22 7  # ieta 22
+23 8  # ieta 23
+24 9  # ieta 24
+25 10  # ieta 25
+26 11  # ieta 26
+27 12  # ieta 27
+28 12  # ieta 28
+29 13  # ieta 30
+30 13  # ieta 31
+31 13  # ieta 32
+32 14  # ieta 33
+33 14  # ieta 34
+34 14  # ieta 35
+35 14  # ieta 36
+36 15  # ieta 37
+37 15  # ieta 38
+38 15  # ieta 39
+39 15  # ieta 40
+40 15  # ieta 41
+41 0
+42 0
+43 0
+44 0
+45 0
+46 0
+47 0
+48 0
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 0
+57 0
+58 0
+59 0
+60 0
+61 0
+62 0
+63 0

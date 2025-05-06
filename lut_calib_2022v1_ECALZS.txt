@@ -1,0 +1,2055 @@
+# address to addend+multiplicative factor LUT
+# maps 11 bits to 18 bits
+# 18 bits = (addend<<10) + multiplier)
+# addend is signed 8 bits, multiplier is 10 bits
+# anything after # is ignored with the exception of the header
+# the header is first valid line starting with #<header> versionStr nrBitsAddress nrBitsData </header>
+#<header> v1 11 18 </header>
+0 983  # ieta 1, pt 0
+1 970
+2 961
+3 954
+4 949
+5 933
+6 919
+7 896
+8 874
+9 847
+10 811
+11 770
+12 731
+13 698
+14 667
+15 643
+16 983  # ieta 2, pt 0
+17 970
+18 961
+19 954
+20 949
+21 933
+22 919
+23 896
+24 874
+25 853
+26 811
+27 770
+28 731
+29 698
+30 667
+31 643
+32 998  # ieta 3, pt 0
+33 984
+34 975
+35 966
+36 960
+37 944
+38 921
+39 905
+40 882
+41 854
+42 817
+43 774
+44 737
+45 703
+46 670
+47 645
+48 1000  # ieta 4, pt 0
+49 987
+50 977
+51 969
+52 962
+53 955
+54 929
+55 913
+56 889
+57 859
+58 821
+59 778
+60 740
+61 705
+62 672
+63 646
+64 1015  # ieta 5, pt 0
+65 1001
+66 991
+67 982
+68 974
+69 965
+70 938
+71 921
+72 896
+73 865
+74 826
+75 782
+76 743
+77 707
+78 674
+79 648
+80 1019  # ieta 6, pt 0
+81 1016
+82 1003
+83 992
+84 984
+85 968
+86 946
+87 922
+88 903
+89 871
+90 831
+91 786
+92 743
+93 709
+94 674
+95 648
+96 2040  # ieta 7, pt 0
+97 1016
+98 1003
+99 993
+100 985
+101 976
+102 947
+103 929
+104 903
+105 871
+106 831
+107 790
+108 746
+109 709
+110 675
+111 649
+112 2044  # ieta 8, pt 0
+113 1016
+114 1004
+115 995
+116 995
+117 976
+118 955
+119 929
+120 904
+121 878
+122 836
+123 790
+124 749
+125 712
+126 675
+127 649
+128 2047  # ieta 9, pt 0
+129 1019
+130 1017
+131 1005
+132 995
+133 987
+134 956
+135 938
+136 911
+137 878
+138 836
+139 794
+140 749
+141 712
+142 677
+143 649
+144 2047  # ieta 10, pt 0
+145 2042
+146 1017
+147 1006
+148 997
+149 987
+150 965
+151 946
+152 918
+153 884
+154 846
+155 798
+156 755
+157 716
+158 680
+159 651
+160 2047  # ieta 11, pt 0
+161 2047
+162 1018
+163 1018
+164 1007
+165 988
+166 966
+167 946
+168 919
+169 890
+170 851
+171 801
+172 761
+173 721
+174 683
+175 655
+176 2047  # ieta 12, pt 0
+177 3071
+178 3071
+179 3071
+180 2045
+181 1009
+182 992
+183 971
+184 940
+185 903
+186 866
+187 813
+188 767
+189 729
+190 691
+191 658
+192 2047  # ieta 13, pt 0
+193 7167
+194 6143
+195 5119
+196 4095
+197 2047
+198 1010
+199 988
+200 962
+201 928
+202 881
+203 832
+204 787
+205 741
+206 699
+207 664
+208 2047  # ieta 14, pt 0
+209 9215
+210 9215
+211 8191
+212 7167
+213 5119
+214 3071
+215 1013
+216 985
+217 953
+218 906
+219 856
+220 805
+221 756
+222 709
+223 671
+224 2047  # ieta 15, pt 0
+225 10239
+226 10239
+227 10239
+228 9215
+229 7167
+230 5119
+231 2047
+232 999
+233 965
+234 916
+235 863
+236 814
+237 761
+238 712
+239 672
+240 2047  # ieta 16, pt 0
+241 12287
+242 12287
+243 12287
+244 11263
+245 10239
+246 8191
+247 5119
+248 1021
+249 984
+250 936
+251 883
+252 829
+253 776
+254 727
+255 684
+256 2047  # ieta 17, pt 0
+257 13311
+258 14335
+259 13311
+260 12287
+261 11263
+262 10239
+263 7167
+264 3071
+265 997
+266 951
+267 894
+268 840
+269 785
+270 737
+271 694
+272 2047  # ieta 18, pt 0
+273 11263
+274 11263
+275 10239
+276 9215
+277 7167
+278 5119
+279 2045
+280 992
+281 959
+282 911
+283 856
+284 796
+285 747
+286 703
+287 658
+288 2047  # ieta 19, pt 0
+289 11263
+290 11263
+291 10239
+292 8191
+293 7167
+294 4095
+295 1020
+296 991
+297 953
+298 901
+299 844
+300 784
+301 736
+302 695
+303 658
+304 2047  # ieta 20, pt 0
+305 11263
+306 11263
+307 10239
+308 8191
+309 7167
+310 4095
+311 1020
+312 985
+313 946
+314 901
+315 840
+316 781
+317 736
+318 695
+319 658
+320 2047  # ieta 21, pt 0
+321 12287
+322 11263
+323 10239
+324 8191
+325 6143
+326 4095
+327 1013
+328 984
+329 940
+330 896
+331 832
+332 775
+333 729
+334 691
+335 657
+336 2047  # ieta 22, pt 0
+337 11263
+338 10239
+339 9215
+340 7167
+341 5119
+342 1021
+343 988
+344 955
+345 915
+346 866
+347 809
+348 755
+349 714
+350 677
+351 646
+352 2047  # ieta 23, pt 0
+353 8191
+354 7167
+355 5119
+356 3071
+357 1019
+358 984
+359 954
+360 918
+361 884
+362 836
+363 782
+364 734
+365 696
+366 662
+367 630
+368 2047  # ieta 24, pt 0
+369 5119
+370 3071
+371 1005
+372 961
+373 933
+374 891
+375 863
+376 838
+377 815
+378 786
+379 743
+380 705
+381 674
+382 644
+383 616
+384 2047  # ieta 25, pt 0
+385 3071
+386 1003
+387 966
+388 926
+389 892
+390 864
+391 840
+392 823
+393 797
+394 771
+395 732
+396 696
+397 667
+398 638
+399 610
+400 2047  # ieta 26, pt 0
+401 1000
+402 960
+403 915
+404 890
+405 859
+406 828
+407 807
+408 794
+409 765
+410 746
+411 704
+412 669
+413 638
+414 610
+415 587
+416 2047  # ieta 27, pt 0
+417 3071
+418 1003
+419 954
+420 925
+421 892
+422 856
+423 831
+424 802
+425 765
+426 745
+427 697
+428 658
+429 627
+430 596
+431 577
+432 796  # ieta 28, pt 0
+433 776
+434 733
+435 685
+436 646
+437 613
+438 582
+439 574
+440 574
+441 591
+442 620
+443 631
+444 614
+445 583
+446 557
+447 538
+448 711  # ieta 30, pt 0
+449 696
+450 662
+451 621
+452 589
+453 562
+454 535
+455 517
+456 516
+457 522
+458 540
+459 545
+460 543
+461 538
+462 526
+463 507
+464 623  # ieta 31, pt 0
+465 601
+466 576
+467 544
+468 518
+469 487
+470 455
+471 434
+472 421
+473 416
+474 439
+475 464
+476 478
+477 478
+478 469
+479 449
+480 623  # ieta 32, pt 0
+481 601
+482 576
+483 544
+484 518
+485 487
+486 454
+487 434
+488 413
+489 403
+490 404
+491 433
+492 461
+493 467
+494 466
+495 446
+496 591  # ieta 33, pt 0
+497 570
+498 548
+499 508
+500 483
+501 453
+502 416
+503 384
+504 362
+505 341
+506 344
+507 379
+508 411
+509 422
+510 429
+511 417
+512 572  # ieta 34, pt 0
+513 552
+514 519
+515 493
+516 460
+517 432
+518 398
+519 376
+520 355
+521 347
+522 350
+523 390
+524 419
+525 429
+526 432
+527 417
+528 589  # ieta 35, pt 0
+529 568
+530 534
+531 506
+532 472
+533 443
+534 407
+535 376
+536 356
+537 341
+538 345
+539 382
+540 413
+541 422
+542 426
+543 413
+544 591  # ieta 36, pt 0
+545 570
+546 548
+547 507
+548 483
+549 453
+550 416
+551 384
+552 362
+553 342
+554 345
+555 382
+556 411
+557 422
+558 426
+559 411
+560 623  # ieta 37, pt 0
+561 600
+562 564
+563 531
+564 506
+565 466
+566 426
+567 394
+568 370
+569 341
+570 325
+571 348
+572 375
+573 393
+574 406
+575 400
+576 657  # ieta 38, pt 0
+577 632
+578 592
+579 557
+580 520
+581 486
+582 444
+583 417
+584 385
+585 366
+586 359
+587 382
+588 408
+589 416
+590 424
+591 413
+592 657  # ieta 39, pt 0
+593 632
+594 592
+595 557
+596 530
+597 487
+598 453
+599 417
+600 399
+601 384
+602 384
+603 402
+604 416
+605 420
+606 427
+607 415
+608 794  # ieta 40, pt 0
+609 760
+610 719
+611 673
+612 635
+613 594
+614 553
+615 509
+616 487
+617 453
+618 429
+619 414
+620 425
+621 424
+622 432
+623 420
+624 794  # ieta 41, pt 0
+625 760
+626 719
+627 673
+628 635
+629 594
+630 553
+631 509
+632 487
+633 453
+634 429
+635 414
+636 425
+637 424
+638 432
+639 420
+640 0 # dummy
+641 0 # dummy
+642 0 # dummy
+643 0 # dummy
+644 0 # dummy
+645 0 # dummy
+646 0 # dummy
+647 0 # dummy
+648 0 # dummy
+649 0 # dummy
+650 0 # dummy
+651 0 # dummy
+652 0 # dummy
+653 0 # dummy
+654 0 # dummy
+655 0 # dummy
+656 0 # dummy
+657 0 # dummy
+658 0 # dummy
+659 0 # dummy
+660 0 # dummy
+661 0 # dummy
+662 0 # dummy
+663 0 # dummy
+664 0 # dummy
+665 0 # dummy
+666 0 # dummy
+667 0 # dummy
+668 0 # dummy
+669 0 # dummy
+670 0 # dummy
+671 0 # dummy
+672 0 # dummy
+673 0 # dummy
+674 0 # dummy
+675 0 # dummy
+676 0 # dummy
+677 0 # dummy
+678 0 # dummy
+679 0 # dummy
+680 0 # dummy
+681 0 # dummy
+682 0 # dummy
+683 0 # dummy
+684 0 # dummy
+685 0 # dummy
+686 0 # dummy
+687 0 # dummy
+688 0 # dummy
+689 0 # dummy
+690 0 # dummy
+691 0 # dummy
+692 0 # dummy
+693 0 # dummy
+694 0 # dummy
+695 0 # dummy
+696 0 # dummy
+697 0 # dummy
+698 0 # dummy
+699 0 # dummy
+700 0 # dummy
+701 0 # dummy
+702 0 # dummy
+703 0 # dummy
+704 0 # dummy
+705 0 # dummy
+706 0 # dummy
+707 0 # dummy
+708 0 # dummy
+709 0 # dummy
+710 0 # dummy
+711 0 # dummy
+712 0 # dummy
+713 0 # dummy
+714 0 # dummy
+715 0 # dummy
+716 0 # dummy
+717 0 # dummy
+718 0 # dummy
+719 0 # dummy
+720 0 # dummy
+721 0 # dummy
+722 0 # dummy
+723 0 # dummy
+724 0 # dummy
+725 0 # dummy
+726 0 # dummy
+727 0 # dummy
+728 0 # dummy
+729 0 # dummy
+730 0 # dummy
+731 0 # dummy
+732 0 # dummy
+733 0 # dummy
+734 0 # dummy
+735 0 # dummy
+736 0 # dummy
+737 0 # dummy
+738 0 # dummy
+739 0 # dummy
+740 0 # dummy
+741 0 # dummy
+742 0 # dummy
+743 0 # dummy
+744 0 # dummy
+745 0 # dummy
+746 0 # dummy
+747 0 # dummy
+748 0 # dummy
+749 0 # dummy
+750 0 # dummy
+751 0 # dummy
+752 0 # dummy
+753 0 # dummy
+754 0 # dummy
+755 0 # dummy
+756 0 # dummy
+757 0 # dummy
+758 0 # dummy
+759 0 # dummy
+760 0 # dummy
+761 0 # dummy
+762 0 # dummy
+763 0 # dummy
+764 0 # dummy
+765 0 # dummy
+766 0 # dummy
+767 0 # dummy
+768 0 # dummy
+769 0 # dummy
+770 0 # dummy
+771 0 # dummy
+772 0 # dummy
+773 0 # dummy
+774 0 # dummy
+775 0 # dummy
+776 0 # dummy
+777 0 # dummy
+778 0 # dummy
+779 0 # dummy
+780 0 # dummy
+781 0 # dummy
+782 0 # dummy
+783 0 # dummy
+784 0 # dummy
+785 0 # dummy
+786 0 # dummy
+787 0 # dummy
+788 0 # dummy
+789 0 # dummy
+790 0 # dummy
+791 0 # dummy
+792 0 # dummy
+793 0 # dummy
+794 0 # dummy
+795 0 # dummy
+796 0 # dummy
+797 0 # dummy
+798 0 # dummy
+799 0 # dummy
+800 0 # dummy
+801 0 # dummy
+802 0 # dummy
+803 0 # dummy
+804 0 # dummy
+805 0 # dummy
+806 0 # dummy
+807 0 # dummy
+808 0 # dummy
+809 0 # dummy
+810 0 # dummy
+811 0 # dummy
+812 0 # dummy
+813 0 # dummy
+814 0 # dummy
+815 0 # dummy
+816 0 # dummy
+817 0 # dummy
+818 0 # dummy
+819 0 # dummy
+820 0 # dummy
+821 0 # dummy
+822 0 # dummy
+823 0 # dummy
+824 0 # dummy
+825 0 # dummy
+826 0 # dummy
+827 0 # dummy
+828 0 # dummy
+829 0 # dummy
+830 0 # dummy
+831 0 # dummy
+832 0 # dummy
+833 0 # dummy
+834 0 # dummy
+835 0 # dummy
+836 0 # dummy
+837 0 # dummy
+838 0 # dummy
+839 0 # dummy
+840 0 # dummy
+841 0 # dummy
+842 0 # dummy
+843 0 # dummy
+844 0 # dummy
+845 0 # dummy
+846 0 # dummy
+847 0 # dummy
+848 0 # dummy
+849 0 # dummy
+850 0 # dummy
+851 0 # dummy
+852 0 # dummy
+853 0 # dummy
+854 0 # dummy
+855 0 # dummy
+856 0 # dummy
+857 0 # dummy
+858 0 # dummy
+859 0 # dummy
+860 0 # dummy
+861 0 # dummy
+862 0 # dummy
+863 0 # dummy
+864 0 # dummy
+865 0 # dummy
+866 0 # dummy
+867 0 # dummy
+868 0 # dummy
+869 0 # dummy
+870 0 # dummy
+871 0 # dummy
+872 0 # dummy
+873 0 # dummy
+874 0 # dummy
+875 0 # dummy
+876 0 # dummy
+877 0 # dummy
+878 0 # dummy
+879 0 # dummy
+880 0 # dummy
+881 0 # dummy
+882 0 # dummy
+883 0 # dummy
+884 0 # dummy
+885 0 # dummy
+886 0 # dummy
+887 0 # dummy
+888 0 # dummy
+889 0 # dummy
+890 0 # dummy
+891 0 # dummy
+892 0 # dummy
+893 0 # dummy
+894 0 # dummy
+895 0 # dummy
+896 0 # dummy
+897 0 # dummy
+898 0 # dummy
+899 0 # dummy
+900 0 # dummy
+901 0 # dummy
+902 0 # dummy
+903 0 # dummy
+904 0 # dummy
+905 0 # dummy
+906 0 # dummy
+907 0 # dummy
+908 0 # dummy
+909 0 # dummy
+910 0 # dummy
+911 0 # dummy
+912 0 # dummy
+913 0 # dummy
+914 0 # dummy
+915 0 # dummy
+916 0 # dummy
+917 0 # dummy
+918 0 # dummy
+919 0 # dummy
+920 0 # dummy
+921 0 # dummy
+922 0 # dummy
+923 0 # dummy
+924 0 # dummy
+925 0 # dummy
+926 0 # dummy
+927 0 # dummy
+928 0 # dummy
+929 0 # dummy
+930 0 # dummy
+931 0 # dummy
+932 0 # dummy
+933 0 # dummy
+934 0 # dummy
+935 0 # dummy
+936 0 # dummy
+937 0 # dummy
+938 0 # dummy
+939 0 # dummy
+940 0 # dummy
+941 0 # dummy
+942 0 # dummy
+943 0 # dummy
+944 0 # dummy
+945 0 # dummy
+946 0 # dummy
+947 0 # dummy
+948 0 # dummy
+949 0 # dummy
+950 0 # dummy
+951 0 # dummy
+952 0 # dummy
+953 0 # dummy
+954 0 # dummy
+955 0 # dummy
+956 0 # dummy
+957 0 # dummy
+958 0 # dummy
+959 0 # dummy
+960 0 # dummy
+961 0 # dummy
+962 0 # dummy
+963 0 # dummy
+964 0 # dummy
+965 0 # dummy
+966 0 # dummy
+967 0 # dummy
+968 0 # dummy
+969 0 # dummy
+970 0 # dummy
+971 0 # dummy
+972 0 # dummy
+973 0 # dummy
+974 0 # dummy
+975 0 # dummy
+976 0 # dummy
+977 0 # dummy
+978 0 # dummy
+979 0 # dummy
+980 0 # dummy
+981 0 # dummy
+982 0 # dummy
+983 0 # dummy
+984 0 # dummy
+985 0 # dummy
+986 0 # dummy
+987 0 # dummy
+988 0 # dummy
+989 0 # dummy
+990 0 # dummy
+991 0 # dummy
+992 0 # dummy
+993 0 # dummy
+994 0 # dummy
+995 0 # dummy
+996 0 # dummy
+997 0 # dummy
+998 0 # dummy
+999 0 # dummy
+1000 0 # dummy
+1001 0 # dummy
+1002 0 # dummy
+1003 0 # dummy
+1004 0 # dummy
+1005 0 # dummy
+1006 0 # dummy
+1007 0 # dummy
+1008 0 # dummy
+1009 0 # dummy
+1010 0 # dummy
+1011 0 # dummy
+1012 0 # dummy
+1013 0 # dummy
+1014 0 # dummy
+1015 0 # dummy
+1016 0 # dummy
+1017 0 # dummy
+1018 0 # dummy
+1019 0 # dummy
+1020 0 # dummy
+1021 0 # dummy
+1022 0 # dummy
+1023 0 # dummy
+1024 0 # dummy
+1025 0 # dummy
+1026 0 # dummy
+1027 0 # dummy
+1028 0 # dummy
+1029 0 # dummy
+1030 0 # dummy
+1031 0 # dummy
+1032 0 # dummy
+1033 0 # dummy
+1034 0 # dummy
+1035 0 # dummy
+1036 0 # dummy
+1037 0 # dummy
+1038 0 # dummy
+1039 0 # dummy
+1040 0 # dummy
+1041 0 # dummy
+1042 0 # dummy
+1043 0 # dummy
+1044 0 # dummy
+1045 0 # dummy
+1046 0 # dummy
+1047 0 # dummy
+1048 0 # dummy
+1049 0 # dummy
+1050 0 # dummy
+1051 0 # dummy
+1052 0 # dummy
+1053 0 # dummy
+1054 0 # dummy
+1055 0 # dummy
+1056 0 # dummy
+1057 0 # dummy
+1058 0 # dummy
+1059 0 # dummy
+1060 0 # dummy
+1061 0 # dummy
+1062 0 # dummy
+1063 0 # dummy
+1064 0 # dummy
+1065 0 # dummy
+1066 0 # dummy
+1067 0 # dummy
+1068 0 # dummy
+1069 0 # dummy
+1070 0 # dummy
+1071 0 # dummy
+1072 0 # dummy
+1073 0 # dummy
+1074 0 # dummy
+1075 0 # dummy
+1076 0 # dummy
+1077 0 # dummy
+1078 0 # dummy
+1079 0 # dummy
+1080 0 # dummy
+1081 0 # dummy
+1082 0 # dummy
+1083 0 # dummy
+1084 0 # dummy
+1085 0 # dummy
+1086 0 # dummy
+1087 0 # dummy
+1088 0 # dummy
+1089 0 # dummy
+1090 0 # dummy
+1091 0 # dummy
+1092 0 # dummy
+1093 0 # dummy
+1094 0 # dummy
+1095 0 # dummy
+1096 0 # dummy
+1097 0 # dummy
+1098 0 # dummy
+1099 0 # dummy
+1100 0 # dummy
+1101 0 # dummy
+1102 0 # dummy
+1103 0 # dummy
+1104 0 # dummy
+1105 0 # dummy
+1106 0 # dummy
+1107 0 # dummy
+1108 0 # dummy
+1109 0 # dummy
+1110 0 # dummy
+1111 0 # dummy
+1112 0 # dummy
+1113 0 # dummy
+1114 0 # dummy
+1115 0 # dummy
+1116 0 # dummy
+1117 0 # dummy
+1118 0 # dummy
+1119 0 # dummy
+1120 0 # dummy
+1121 0 # dummy
+1122 0 # dummy
+1123 0 # dummy
+1124 0 # dummy
+1125 0 # dummy
+1126 0 # dummy
+1127 0 # dummy
+1128 0 # dummy
+1129 0 # dummy
+1130 0 # dummy
+1131 0 # dummy
+1132 0 # dummy
+1133 0 # dummy
+1134 0 # dummy
+1135 0 # dummy
+1136 0 # dummy
+1137 0 # dummy
+1138 0 # dummy
+1139 0 # dummy
+1140 0 # dummy
+1141 0 # dummy
+1142 0 # dummy
+1143 0 # dummy
+1144 0 # dummy
+1145 0 # dummy
+1146 0 # dummy
+1147 0 # dummy
+1148 0 # dummy
+1149 0 # dummy
+1150 0 # dummy
+1151 0 # dummy
+1152 0 # dummy
+1153 0 # dummy
+1154 0 # dummy
+1155 0 # dummy
+1156 0 # dummy
+1157 0 # dummy
+1158 0 # dummy
+1159 0 # dummy
+1160 0 # dummy
+1161 0 # dummy
+1162 0 # dummy
+1163 0 # dummy
+1164 0 # dummy
+1165 0 # dummy
+1166 0 # dummy
+1167 0 # dummy
+1168 0 # dummy
+1169 0 # dummy
+1170 0 # dummy
+1171 0 # dummy
+1172 0 # dummy
+1173 0 # dummy
+1174 0 # dummy
+1175 0 # dummy
+1176 0 # dummy
+1177 0 # dummy
+1178 0 # dummy
+1179 0 # dummy
+1180 0 # dummy
+1181 0 # dummy
+1182 0 # dummy
+1183 0 # dummy
+1184 0 # dummy
+1185 0 # dummy
+1186 0 # dummy
+1187 0 # dummy
+1188 0 # dummy
+1189 0 # dummy
+1190 0 # dummy
+1191 0 # dummy
+1192 0 # dummy
+1193 0 # dummy
+1194 0 # dummy
+1195 0 # dummy
+1196 0 # dummy
+1197 0 # dummy
+1198 0 # dummy
+1199 0 # dummy
+1200 0 # dummy
+1201 0 # dummy
+1202 0 # dummy
+1203 0 # dummy
+1204 0 # dummy
+1205 0 # dummy
+1206 0 # dummy
+1207 0 # dummy
+1208 0 # dummy
+1209 0 # dummy
+1210 0 # dummy
+1211 0 # dummy
+1212 0 # dummy
+1213 0 # dummy
+1214 0 # dummy
+1215 0 # dummy
+1216 0 # dummy
+1217 0 # dummy
+1218 0 # dummy
+1219 0 # dummy
+1220 0 # dummy
+1221 0 # dummy
+1222 0 # dummy
+1223 0 # dummy
+1224 0 # dummy
+1225 0 # dummy
+1226 0 # dummy
+1227 0 # dummy
+1228 0 # dummy
+1229 0 # dummy
+1230 0 # dummy
+1231 0 # dummy
+1232 0 # dummy
+1233 0 # dummy
+1234 0 # dummy
+1235 0 # dummy
+1236 0 # dummy
+1237 0 # dummy
+1238 0 # dummy
+1239 0 # dummy
+1240 0 # dummy
+1241 0 # dummy
+1242 0 # dummy
+1243 0 # dummy
+1244 0 # dummy
+1245 0 # dummy
+1246 0 # dummy
+1247 0 # dummy
+1248 0 # dummy
+1249 0 # dummy
+1250 0 # dummy
+1251 0 # dummy
+1252 0 # dummy
+1253 0 # dummy
+1254 0 # dummy
+1255 0 # dummy
+1256 0 # dummy
+1257 0 # dummy
+1258 0 # dummy
+1259 0 # dummy
+1260 0 # dummy
+1261 0 # dummy
+1262 0 # dummy
+1263 0 # dummy
+1264 0 # dummy
+1265 0 # dummy
+1266 0 # dummy
+1267 0 # dummy
+1268 0 # dummy
+1269 0 # dummy
+1270 0 # dummy
+1271 0 # dummy
+1272 0 # dummy
+1273 0 # dummy
+1274 0 # dummy
+1275 0 # dummy
+1276 0 # dummy
+1277 0 # dummy
+1278 0 # dummy
+1279 0 # dummy
+1280 0 # dummy
+1281 0 # dummy
+1282 0 # dummy
+1283 0 # dummy
+1284 0 # dummy
+1285 0 # dummy
+1286 0 # dummy
+1287 0 # dummy
+1288 0 # dummy
+1289 0 # dummy
+1290 0 # dummy
+1291 0 # dummy
+1292 0 # dummy
+1293 0 # dummy
+1294 0 # dummy
+1295 0 # dummy
+1296 0 # dummy
+1297 0 # dummy
+1298 0 # dummy
+1299 0 # dummy
+1300 0 # dummy
+1301 0 # dummy
+1302 0 # dummy
+1303 0 # dummy
+1304 0 # dummy
+1305 0 # dummy
+1306 0 # dummy
+1307 0 # dummy
+1308 0 # dummy
+1309 0 # dummy
+1310 0 # dummy
+1311 0 # dummy
+1312 0 # dummy
+1313 0 # dummy
+1314 0 # dummy
+1315 0 # dummy
+1316 0 # dummy
+1317 0 # dummy
+1318 0 # dummy
+1319 0 # dummy
+1320 0 # dummy
+1321 0 # dummy
+1322 0 # dummy
+1323 0 # dummy
+1324 0 # dummy
+1325 0 # dummy
+1326 0 # dummy
+1327 0 # dummy
+1328 0 # dummy
+1329 0 # dummy
+1330 0 # dummy
+1331 0 # dummy
+1332 0 # dummy
+1333 0 # dummy
+1334 0 # dummy
+1335 0 # dummy
+1336 0 # dummy
+1337 0 # dummy
+1338 0 # dummy
+1339 0 # dummy
+1340 0 # dummy
+1341 0 # dummy
+1342 0 # dummy
+1343 0 # dummy
+1344 0 # dummy
+1345 0 # dummy
+1346 0 # dummy
+1347 0 # dummy
+1348 0 # dummy
+1349 0 # dummy
+1350 0 # dummy
+1351 0 # dummy
+1352 0 # dummy
+1353 0 # dummy
+1354 0 # dummy
+1355 0 # dummy
+1356 0 # dummy
+1357 0 # dummy
+1358 0 # dummy
+1359 0 # dummy
+1360 0 # dummy
+1361 0 # dummy
+1362 0 # dummy
+1363 0 # dummy
+1364 0 # dummy
+1365 0 # dummy
+1366 0 # dummy
+1367 0 # dummy
+1368 0 # dummy
+1369 0 # dummy
+1370 0 # dummy
+1371 0 # dummy
+1372 0 # dummy
+1373 0 # dummy
+1374 0 # dummy
+1375 0 # dummy
+1376 0 # dummy
+1377 0 # dummy
+1378 0 # dummy
+1379 0 # dummy
+1380 0 # dummy
+1381 0 # dummy
+1382 0 # dummy
+1383 0 # dummy
+1384 0 # dummy
+1385 0 # dummy
+1386 0 # dummy
+1387 0 # dummy
+1388 0 # dummy
+1389 0 # dummy
+1390 0 # dummy
+1391 0 # dummy
+1392 0 # dummy
+1393 0 # dummy
+1394 0 # dummy
+1395 0 # dummy
+1396 0 # dummy
+1397 0 # dummy
+1398 0 # dummy
+1399 0 # dummy
+1400 0 # dummy
+1401 0 # dummy
+1402 0 # dummy
+1403 0 # dummy
+1404 0 # dummy
+1405 0 # dummy
+1406 0 # dummy
+1407 0 # dummy
+1408 0 # dummy
+1409 0 # dummy
+1410 0 # dummy
+1411 0 # dummy
+1412 0 # dummy
+1413 0 # dummy
+1414 0 # dummy
+1415 0 # dummy
+1416 0 # dummy
+1417 0 # dummy
+1418 0 # dummy
+1419 0 # dummy
+1420 0 # dummy
+1421 0 # dummy
+1422 0 # dummy
+1423 0 # dummy
+1424 0 # dummy
+1425 0 # dummy
+1426 0 # dummy
+1427 0 # dummy
+1428 0 # dummy
+1429 0 # dummy
+1430 0 # dummy
+1431 0 # dummy
+1432 0 # dummy
+1433 0 # dummy
+1434 0 # dummy
+1435 0 # dummy
+1436 0 # dummy
+1437 0 # dummy
+1438 0 # dummy
+1439 0 # dummy
+1440 0 # dummy
+1441 0 # dummy
+1442 0 # dummy
+1443 0 # dummy
+1444 0 # dummy
+1445 0 # dummy
+1446 0 # dummy
+1447 0 # dummy
+1448 0 # dummy
+1449 0 # dummy
+1450 0 # dummy
+1451 0 # dummy
+1452 0 # dummy
+1453 0 # dummy
+1454 0 # dummy
+1455 0 # dummy
+1456 0 # dummy
+1457 0 # dummy
+1458 0 # dummy
+1459 0 # dummy
+1460 0 # dummy
+1461 0 # dummy
+1462 0 # dummy
+1463 0 # dummy
+1464 0 # dummy
+1465 0 # dummy
+1466 0 # dummy
+1467 0 # dummy
+1468 0 # dummy
+1469 0 # dummy
+1470 0 # dummy
+1471 0 # dummy
+1472 0 # dummy
+1473 0 # dummy
+1474 0 # dummy
+1475 0 # dummy
+1476 0 # dummy
+1477 0 # dummy
+1478 0 # dummy
+1479 0 # dummy
+1480 0 # dummy
+1481 0 # dummy
+1482 0 # dummy
+1483 0 # dummy
+1484 0 # dummy
+1485 0 # dummy
+1486 0 # dummy
+1487 0 # dummy
+1488 0 # dummy
+1489 0 # dummy
+1490 0 # dummy
+1491 0 # dummy
+1492 0 # dummy
+1493 0 # dummy
+1494 0 # dummy
+1495 0 # dummy
+1496 0 # dummy
+1497 0 # dummy
+1498 0 # dummy
+1499 0 # dummy
+1500 0 # dummy
+1501 0 # dummy
+1502 0 # dummy
+1503 0 # dummy
+1504 0 # dummy
+1505 0 # dummy
+1506 0 # dummy
+1507 0 # dummy
+1508 0 # dummy
+1509 0 # dummy
+1510 0 # dummy
+1511 0 # dummy
+1512 0 # dummy
+1513 0 # dummy
+1514 0 # dummy
+1515 0 # dummy
+1516 0 # dummy
+1517 0 # dummy
+1518 0 # dummy
+1519 0 # dummy
+1520 0 # dummy
+1521 0 # dummy
+1522 0 # dummy
+1523 0 # dummy
+1524 0 # dummy
+1525 0 # dummy
+1526 0 # dummy
+1527 0 # dummy
+1528 0 # dummy
+1529 0 # dummy
+1530 0 # dummy
+1531 0 # dummy
+1532 0 # dummy
+1533 0 # dummy
+1534 0 # dummy
+1535 0 # dummy
+1536 0 # dummy
+1537 0 # dummy
+1538 0 # dummy
+1539 0 # dummy
+1540 0 # dummy
+1541 0 # dummy
+1542 0 # dummy
+1543 0 # dummy
+1544 0 # dummy
+1545 0 # dummy
+1546 0 # dummy
+1547 0 # dummy
+1548 0 # dummy
+1549 0 # dummy
+1550 0 # dummy
+1551 0 # dummy
+1552 0 # dummy
+1553 0 # dummy
+1554 0 # dummy
+1555 0 # dummy
+1556 0 # dummy
+1557 0 # dummy
+1558 0 # dummy
+1559 0 # dummy
+1560 0 # dummy
+1561 0 # dummy
+1562 0 # dummy
+1563 0 # dummy
+1564 0 # dummy
+1565 0 # dummy
+1566 0 # dummy
+1567 0 # dummy
+1568 0 # dummy
+1569 0 # dummy
+1570 0 # dummy
+1571 0 # dummy
+1572 0 # dummy
+1573 0 # dummy
+1574 0 # dummy
+1575 0 # dummy
+1576 0 # dummy
+1577 0 # dummy
+1578 0 # dummy
+1579 0 # dummy
+1580 0 # dummy
+1581 0 # dummy
+1582 0 # dummy
+1583 0 # dummy
+1584 0 # dummy
+1585 0 # dummy
+1586 0 # dummy
+1587 0 # dummy
+1588 0 # dummy
+1589 0 # dummy
+1590 0 # dummy
+1591 0 # dummy
+1592 0 # dummy
+1593 0 # dummy
+1594 0 # dummy
+1595 0 # dummy
+1596 0 # dummy
+1597 0 # dummy
+1598 0 # dummy
+1599 0 # dummy
+1600 0 # dummy
+1601 0 # dummy
+1602 0 # dummy
+1603 0 # dummy
+1604 0 # dummy
+1605 0 # dummy
+1606 0 # dummy
+1607 0 # dummy
+1608 0 # dummy
+1609 0 # dummy
+1610 0 # dummy
+1611 0 # dummy
+1612 0 # dummy
+1613 0 # dummy
+1614 0 # dummy
+1615 0 # dummy
+1616 0 # dummy
+1617 0 # dummy
+1618 0 # dummy
+1619 0 # dummy
+1620 0 # dummy
+1621 0 # dummy
+1622 0 # dummy
+1623 0 # dummy
+1624 0 # dummy
+1625 0 # dummy
+1626 0 # dummy
+1627 0 # dummy
+1628 0 # dummy
+1629 0 # dummy
+1630 0 # dummy
+1631 0 # dummy
+1632 0 # dummy
+1633 0 # dummy
+1634 0 # dummy
+1635 0 # dummy
+1636 0 # dummy
+1637 0 # dummy
+1638 0 # dummy
+1639 0 # dummy
+1640 0 # dummy
+1641 0 # dummy
+1642 0 # dummy
+1643 0 # dummy
+1644 0 # dummy
+1645 0 # dummy
+1646 0 # dummy
+1647 0 # dummy
+1648 0 # dummy
+1649 0 # dummy
+1650 0 # dummy
+1651 0 # dummy
+1652 0 # dummy
+1653 0 # dummy
+1654 0 # dummy
+1655 0 # dummy
+1656 0 # dummy
+1657 0 # dummy
+1658 0 # dummy
+1659 0 # dummy
+1660 0 # dummy
+1661 0 # dummy
+1662 0 # dummy
+1663 0 # dummy
+1664 0 # dummy
+1665 0 # dummy
+1666 0 # dummy
+1667 0 # dummy
+1668 0 # dummy
+1669 0 # dummy
+1670 0 # dummy
+1671 0 # dummy
+1672 0 # dummy
+1673 0 # dummy
+1674 0 # dummy
+1675 0 # dummy
+1676 0 # dummy
+1677 0 # dummy
+1678 0 # dummy
+1679 0 # dummy
+1680 0 # dummy
+1681 0 # dummy
+1682 0 # dummy
+1683 0 # dummy
+1684 0 # dummy
+1685 0 # dummy
+1686 0 # dummy
+1687 0 # dummy
+1688 0 # dummy
+1689 0 # dummy
+1690 0 # dummy
+1691 0 # dummy
+1692 0 # dummy
+1693 0 # dummy
+1694 0 # dummy
+1695 0 # dummy
+1696 0 # dummy
+1697 0 # dummy
+1698 0 # dummy
+1699 0 # dummy
+1700 0 # dummy
+1701 0 # dummy
+1702 0 # dummy
+1703 0 # dummy
+1704 0 # dummy
+1705 0 # dummy
+1706 0 # dummy
+1707 0 # dummy
+1708 0 # dummy
+1709 0 # dummy
+1710 0 # dummy
+1711 0 # dummy
+1712 0 # dummy
+1713 0 # dummy
+1714 0 # dummy
+1715 0 # dummy
+1716 0 # dummy
+1717 0 # dummy
+1718 0 # dummy
+1719 0 # dummy
+1720 0 # dummy
+1721 0 # dummy
+1722 0 # dummy
+1723 0 # dummy
+1724 0 # dummy
+1725 0 # dummy
+1726 0 # dummy
+1727 0 # dummy
+1728 0 # dummy
+1729 0 # dummy
+1730 0 # dummy
+1731 0 # dummy
+1732 0 # dummy
+1733 0 # dummy
+1734 0 # dummy
+1735 0 # dummy
+1736 0 # dummy
+1737 0 # dummy
+1738 0 # dummy
+1739 0 # dummy
+1740 0 # dummy
+1741 0 # dummy
+1742 0 # dummy
+1743 0 # dummy
+1744 0 # dummy
+1745 0 # dummy
+1746 0 # dummy
+1747 0 # dummy
+1748 0 # dummy
+1749 0 # dummy
+1750 0 # dummy
+1751 0 # dummy
+1752 0 # dummy
+1753 0 # dummy
+1754 0 # dummy
+1755 0 # dummy
+1756 0 # dummy
+1757 0 # dummy
+1758 0 # dummy
+1759 0 # dummy
+1760 0 # dummy
+1761 0 # dummy
+1762 0 # dummy
+1763 0 # dummy
+1764 0 # dummy
+1765 0 # dummy
+1766 0 # dummy
+1767 0 # dummy
+1768 0 # dummy
+1769 0 # dummy
+1770 0 # dummy
+1771 0 # dummy
+1772 0 # dummy
+1773 0 # dummy
+1774 0 # dummy
+1775 0 # dummy
+1776 0 # dummy
+1777 0 # dummy
+1778 0 # dummy
+1779 0 # dummy
+1780 0 # dummy
+1781 0 # dummy
+1782 0 # dummy
+1783 0 # dummy
+1784 0 # dummy
+1785 0 # dummy
+1786 0 # dummy
+1787 0 # dummy
+1788 0 # dummy
+1789 0 # dummy
+1790 0 # dummy
+1791 0 # dummy
+1792 0 # dummy
+1793 0 # dummy
+1794 0 # dummy
+1795 0 # dummy
+1796 0 # dummy
+1797 0 # dummy
+1798 0 # dummy
+1799 0 # dummy
+1800 0 # dummy
+1801 0 # dummy
+1802 0 # dummy
+1803 0 # dummy
+1804 0 # dummy
+1805 0 # dummy
+1806 0 # dummy
+1807 0 # dummy
+1808 0 # dummy
+1809 0 # dummy
+1810 0 # dummy
+1811 0 # dummy
+1812 0 # dummy
+1813 0 # dummy
+1814 0 # dummy
+1815 0 # dummy
+1816 0 # dummy
+1817 0 # dummy
+1818 0 # dummy
+1819 0 # dummy
+1820 0 # dummy
+1821 0 # dummy
+1822 0 # dummy
+1823 0 # dummy
+1824 0 # dummy
+1825 0 # dummy
+1826 0 # dummy
+1827 0 # dummy
+1828 0 # dummy
+1829 0 # dummy
+1830 0 # dummy
+1831 0 # dummy
+1832 0 # dummy
+1833 0 # dummy
+1834 0 # dummy
+1835 0 # dummy
+1836 0 # dummy
+1837 0 # dummy
+1838 0 # dummy
+1839 0 # dummy
+1840 0 # dummy
+1841 0 # dummy
+1842 0 # dummy
+1843 0 # dummy
+1844 0 # dummy
+1845 0 # dummy
+1846 0 # dummy
+1847 0 # dummy
+1848 0 # dummy
+1849 0 # dummy
+1850 0 # dummy
+1851 0 # dummy
+1852 0 # dummy
+1853 0 # dummy
+1854 0 # dummy
+1855 0 # dummy
+1856 0 # dummy
+1857 0 # dummy
+1858 0 # dummy
+1859 0 # dummy
+1860 0 # dummy
+1861 0 # dummy
+1862 0 # dummy
+1863 0 # dummy
+1864 0 # dummy
+1865 0 # dummy
+1866 0 # dummy
+1867 0 # dummy
+1868 0 # dummy
+1869 0 # dummy
+1870 0 # dummy
+1871 0 # dummy
+1872 0 # dummy
+1873 0 # dummy
+1874 0 # dummy
+1875 0 # dummy
+1876 0 # dummy
+1877 0 # dummy
+1878 0 # dummy
+1879 0 # dummy
+1880 0 # dummy
+1881 0 # dummy
+1882 0 # dummy
+1883 0 # dummy
+1884 0 # dummy
+1885 0 # dummy
+1886 0 # dummy
+1887 0 # dummy
+1888 0 # dummy
+1889 0 # dummy
+1890 0 # dummy
+1891 0 # dummy
+1892 0 # dummy
+1893 0 # dummy
+1894 0 # dummy
+1895 0 # dummy
+1896 0 # dummy
+1897 0 # dummy
+1898 0 # dummy
+1899 0 # dummy
+1900 0 # dummy
+1901 0 # dummy
+1902 0 # dummy
+1903 0 # dummy
+1904 0 # dummy
+1905 0 # dummy
+1906 0 # dummy
+1907 0 # dummy
+1908 0 # dummy
+1909 0 # dummy
+1910 0 # dummy
+1911 0 # dummy
+1912 0 # dummy
+1913 0 # dummy
+1914 0 # dummy
+1915 0 # dummy
+1916 0 # dummy
+1917 0 # dummy
+1918 0 # dummy
+1919 0 # dummy
+1920 0 # dummy
+1921 0 # dummy
+1922 0 # dummy
+1923 0 # dummy
+1924 0 # dummy
+1925 0 # dummy
+1926 0 # dummy
+1927 0 # dummy
+1928 0 # dummy
+1929 0 # dummy
+1930 0 # dummy
+1931 0 # dummy
+1932 0 # dummy
+1933 0 # dummy
+1934 0 # dummy
+1935 0 # dummy
+1936 0 # dummy
+1937 0 # dummy
+1938 0 # dummy
+1939 0 # dummy
+1940 0 # dummy
+1941 0 # dummy
+1942 0 # dummy
+1943 0 # dummy
+1944 0 # dummy
+1945 0 # dummy
+1946 0 # dummy
+1947 0 # dummy
+1948 0 # dummy
+1949 0 # dummy
+1950 0 # dummy
+1951 0 # dummy
+1952 0 # dummy
+1953 0 # dummy
+1954 0 # dummy
+1955 0 # dummy
+1956 0 # dummy
+1957 0 # dummy
+1958 0 # dummy
+1959 0 # dummy
+1960 0 # dummy
+1961 0 # dummy
+1962 0 # dummy
+1963 0 # dummy
+1964 0 # dummy
+1965 0 # dummy
+1966 0 # dummy
+1967 0 # dummy
+1968 0 # dummy
+1969 0 # dummy
+1970 0 # dummy
+1971 0 # dummy
+1972 0 # dummy
+1973 0 # dummy
+1974 0 # dummy
+1975 0 # dummy
+1976 0 # dummy
+1977 0 # dummy
+1978 0 # dummy
+1979 0 # dummy
+1980 0 # dummy
+1981 0 # dummy
+1982 0 # dummy
+1983 0 # dummy
+1984 0 # dummy
+1985 0 # dummy
+1986 0 # dummy
+1987 0 # dummy
+1988 0 # dummy
+1989 0 # dummy
+1990 0 # dummy
+1991 0 # dummy
+1992 0 # dummy
+1993 0 # dummy
+1994 0 # dummy
+1995 0 # dummy
+1996 0 # dummy
+1997 0 # dummy
+1998 0 # dummy
+1999 0 # dummy
+2000 0 # dummy
+2001 0 # dummy
+2002 0 # dummy
+2003 0 # dummy
+2004 0 # dummy
+2005 0 # dummy
+2006 0 # dummy
+2007 0 # dummy
+2008 0 # dummy
+2009 0 # dummy
+2010 0 # dummy
+2011 0 # dummy
+2012 0 # dummy
+2013 0 # dummy
+2014 0 # dummy
+2015 0 # dummy
+2016 0 # dummy
+2017 0 # dummy
+2018 0 # dummy
+2019 0 # dummy
+2020 0 # dummy
+2021 0 # dummy
+2022 0 # dummy
+2023 0 # dummy
+2024 0 # dummy
+2025 0 # dummy
+2026 0 # dummy
+2027 0 # dummy
+2028 0 # dummy
+2029 0 # dummy
+2030 0 # dummy
+2031 0 # dummy
+2032 0 # dummy
+2033 0 # dummy
+2034 0 # dummy
+2035 0 # dummy
+2036 0 # dummy
+2037 0 # dummy
+2038 0 # dummy
+2039 0 # dummy
+2040 0 # dummy
+2041 0 # dummy
+2042 0 # dummy
+2043 0 # dummy
+2044 0 # dummy
+2045 0 # dummy
+2046 0 # dummy
+2047 0 # dummy
